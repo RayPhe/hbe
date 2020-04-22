@@ -80,7 +80,7 @@ html{
     padding: 50px 0;
     font-size: 100px;
 }
-.row-2 a{
+.row-2 p{
     font-family: 'Bangers', cursive;
     text-decoration: none;
     color: black;
@@ -196,11 +196,11 @@ footer h1{
     }
     .row-1, .row-1 h1{
         font-size: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     .row-1 ul a{
-        font-size: 10px;
-        padding: 0;
+        font-size: 20px;
+        padding: 10px;
     }
     .row-2, .row-2 h1{
         font-size: 50px;
@@ -215,8 +215,8 @@ footer h1{
         padding: 0;
     }
     .row-3 ul a{
-        font-size: 10px;
-        padding: 0;
+        font-size: 20px;
+        padding: 10px;
     }
     .row-3 img{
         width: 300px;
