@@ -225,6 +225,9 @@ footer h1{
         width: 350px;
         height: 400px;
     }
+    .row-4 iframe {
+        border: none;
+    }
     .row-4 h1{
         font-size: 50px;
         padding 0;
