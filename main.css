@@ -190,9 +190,8 @@ footer h1{
 }
 @media all and (max-width: 700px){
     .navbar ul, .navbar a{
-        background-color: transparent;
-        color: transparent;
-        width: 0px;
+       font-size: 10px;
+       height: 20px;
     }
     .row-1, .row-1 h1{
         font-size: 50px;
