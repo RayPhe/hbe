@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ html{
     width: 100%;
 }
 .navbar ul{
+    
     height: 62.5px;
     text-align: center;
     display: flex;
@@ -81,10 +84,10 @@ html{
     font-size: 100px;
 }
 .row-2 p{
-    font-family: 'Bangers', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 50px;
     padding-bottom: 50px;
 }
 .row-3{
@@ -142,12 +145,12 @@ html{
     font-size: 100px;
 }
 .row-5 h5{
-    font-family: 'Bangers', cursive;
-    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
 }
 .row-5 sup{
-    font-family: 'Bangers', cursive;
-    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
 }
 .row-6{
     text-align: center;
@@ -159,8 +162,8 @@ html{
 }
 .row-6 p{
     padding: 0 300px;
-    font-family: 'Bangers', cursive;
-    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
 }
 
 footer{
