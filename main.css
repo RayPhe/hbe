@@ -7,9 +7,10 @@
 }
 html{
     scroll-behavior:smooth;
+    background-color: black;
 }
 .navbar{
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 .navbar ul{
@@ -33,15 +34,25 @@ html{
     transition: ease 0.7s;
     color: black;
     background-color: white;
-}
-/*.banner{
-    line-height: 0;
-}*/
-.row-1{
+ }
+ video{
+     position: fixed;
+ }
+ .logo{
+     height: 100vh;
+     text-align: center;
+     padding-top: 70px;
+ }
+ .banner img{
+     display: inline-block;
+     position: relative;
+ }
+ .row-1{
+    background-color: rgb(10, 10, 10, 0.5);
+    position: relative;
     text-align: center;
-    background-color: black;
     padding-bottom: 50px;
-}
+ }
 .row-1 h1{
     color: white;
     font-size: 100px;
@@ -70,8 +81,9 @@ html{
     opacity: 1;
 }
 .row-2{
-    background-color: white;
-    color: black;
+    position: relative;
+    background-color: rgb(10, 10, 10, 0.5);
+    color: white;
     text-align: center;
     padding-bottom: 100px;
 }
@@ -82,13 +94,14 @@ html{
 .row-2 p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 50px;
     padding-bottom: 50px;
 }
 .row-3{
+    background-color: rgb(10, 10, 10, 0.5);
+    position: relative;
     text-align: center;
-    background-color: black; 
 }
 .row-3 h1{
     padding: 50px 0;
@@ -119,6 +132,9 @@ html{
     opacity: 1;
 }
 .row-4{
+    background-color: rgb(10, 10, 10, 0.5);
+    color: white;
+    position: relative;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -131,16 +147,19 @@ html{
     border-radius: 50px;
 }
 .row-5{
+    position: relative;
     text-align: center;
-    background-color: black;
+    background-color: rgb(10, 10, 10, 0.5);
     color: white;
     padding-bottom: 100px;
 }
 .row-5 h1{
+    opacity: 1;
     padding: 50px 0;
     font-size: 100px;
 }
 .row-5 h5{
+    opacity: 1;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 60px;
 }
@@ -149,23 +168,29 @@ html{
     font-size: 30px;
 }
 .row-6{
+    background-color: rgb(10, 10, 10, 0.5);
+    position: relative;
     text-align: center;
     padding-bottom:100px;
 }
 .row-6 h1{
+    color: white;
     padding: 50px 0;
     font-size: 100px;
 }
 .row-6 p{
+    opacity: 1;
+    color: white;
     padding: 0 300px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 50px;
 }
 
 footer{
+    position: relative;
     text-align: center;
     bottom: 0;
-    background-color: black;
+    background-color: rgb(10, 10, 10, 0.5);
     color: white;
     font-size: 20px;
     text-decoration: none;
