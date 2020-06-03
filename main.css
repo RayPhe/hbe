@@ -218,6 +218,13 @@ footer h1{
     video{
         display: none;
     }
+    .logo img{
+        height: 300px;
+        width: 400px;
+        display: inline-flex;
+        position: relative;
+        
+    }
     .navbar ul, .navbar a{
        font-size: 10px;
        height: 20px;
